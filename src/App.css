@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.App{
+    background-color: #F5F5F5;
+    width: auto;
+    height: 100vh;
+    font-family: 'Epilogue';
+    position: relative;
+}
+
+button:hover{
+    opacity: 0.9;
+}

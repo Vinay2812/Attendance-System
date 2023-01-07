@@ -1,0 +1,43 @@
+.card{
+    display: flex;
+    padding: 1rem 0.5rem;
+    width: auto;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin: 0 0.5rem;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.roll-no, .name, .time{
+    padding: 0.5rem 0.75rem;
+}
+
+.checkoutBtn{
+    background: tomato;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.checkoutBtn:disabled{
+    background-color: #a3969690;
+    cursor:default;
+}
+.checkoutBtn:disabled:hover{
+    opacity: 1;
+}
+
